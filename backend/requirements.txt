@@ -1,0 +1,18 @@
+fastapi
+uvicorn[standard]
+fastapi-mail
+
+packaging
+mariadb
+SQLAlchemy==1.4.36
+pymysql
+
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+
+pydantic[email]
+
+# Testing
+pytest
+httpx
