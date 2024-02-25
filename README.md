@@ -1,4 +1,4 @@
-# FastAPI Project Structure Template
+# FastAPI Project Template
 
 The basic requirement was to create an easy-to-follow project structure that integrates SQLAlchemy and Unit Tests nicely. Furthermore, I wanted to achieve a clear separation of concerns by using different modules.
 
