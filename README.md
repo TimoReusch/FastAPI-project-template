@@ -131,7 +131,7 @@ Inside each of these folders, we would have three files:
             return get_users_admin(db=db)
         else:
             return get_users(db=db)
-```
+    ```
 
 - `controller.py`: Handles your logic
     ```python
