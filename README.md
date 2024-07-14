@@ -115,6 +115,7 @@ Additionally, I like to keep the authentication-logic on its own route.
 Inside each of these folders, we would have three files: 
 
 - `main.py`: Place for the actual API-Endpoint-Function, could look like this:
+  
     ```python
     @router.get("/")
     async def get_all_users(user: User = 
@@ -131,7 +132,7 @@ Inside each of these folders, we would have three files:
             return get_users_admin(db=db)
         else:
             return get_users(db=db)
-```
+    ```
 
 - `controller.py`: Handles your logic
     ```python
